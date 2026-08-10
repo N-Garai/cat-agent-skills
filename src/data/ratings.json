@@ -1,5 +1,5 @@
 {
-  "agent-harness-explorer": 4,
+  "agent-harness-explorer": 5,
   "ai-demo-assistant": 0,
   "ai-usecase-assessment": 3,
   "brand-template-enforcer": 1,
@@ -9,6 +9,7 @@
   "commenting-content": 1,
   "conditional-chat-reminder": 1,
   "copilot-agents-news-scout": 1,
+  "copilot-studio-harness-picker": 1,
   "doc-format-converter": 3,
   "enterprise-agent-design-authority": 1,
   "expense-report-filler": 1,
@@ -24,6 +25,7 @@
   "rich-html-presentation": 2,
   "scrollytelling-data": 7,
   "spend-more-time-with-friends-and-family": 1,
+  "stoic-negotiator": 2,
   "what-to-use-when": 0,
   "wikipedia-human-style-writing": 1,
   "work-brief": 2
