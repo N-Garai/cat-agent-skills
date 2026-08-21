@@ -4,7 +4,7 @@
   "ai-usecase-assessment": 3,
   "brand-template-enforcer": 1,
   "campaign-deck-builder": 2,
-  "chart-builder": 4,
+  "chart-builder": 5,
   "classic-text-adventure": 1,
   "commenting-content": 1,
   "conditional-chat-reminder": 1,
@@ -28,6 +28,7 @@
   "scrollytelling-data": 7,
   "spend-more-time-with-friends-and-family": 1,
   "stoic-negotiator": 2,
+  "wcag-power-platform": 1,
   "what-to-use-when": 0,
   "wikipedia-human-style-writing": 1,
   "work-brief": 2
