@@ -15,17 +15,33 @@
   .category { min-width: 0; flex: 1 1 0; max-width: 220px; border: 1px solid #ced4da; border-radius: 6px; padding: 0.75rem; background: white; word-wrap: break-word; overflow-wrap: break-word; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
   .category .label { font-weight: 600; font-size: 0.8rem; margin-bottom: 0.25rem; text-transform: uppercase; letter-spacing: 0.03em; color: #495057; }
   .category .causes { font-size: 0.85rem; color: #212529; min-height: 1.2em; line-height: 1.4; }
+  .causes .tag { display: inline-block; padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 0.35rem; vertical-align: middle; }
+  .tag-confirmed { background: #d1e7dd; color: #0f5132; }
+  .tag-unverified { background: #fff3cd; color: #664d03; }
+  .tag-disproven { background: #f8d7da; color: #842029; }
   .spine-area { position: relative; height: 50px; display: flex; align-items: center; margin: 0.5rem 0; }
   .spine-line { flex: 1; height: 3px; background: #333; }
   .head { position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 0; height: 0; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-left: 20px solid #333; }
   .notes { margin-top: 1.5rem; }
   .notes label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
   .notes textarea { width: 100%; min-height: 120px; border: 1px solid #ced4da; border-radius: 4px; padding: 0.75rem; font-family: inherit; }
+  .legend { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+  .legend-item { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; color: #495057; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
+  .legend-confirmed { background: #198754; }
+  .legend-unverified { background: #ffc107; }
+  .legend-disproven { background: #dc3545; }
 </style>
 </head>
 <body>
   <h1>Fishbone Diagram Template</h1>
   <div class="problem" contenteditable="true">PROBLEM STATEMENT</div>
+
+  <div class="legend">
+    <div class="legend-item"><span class="legend-dot legend-confirmed"></span> Confirmed</div>
+    <div class="legend-item"><span class="legend-dot legend-unverified"></span> Unverified</div>
+    <div class="legend-item"><span class="legend-dot legend-disproven"></span> Disproven</div>
+  </div>
 
   <div class="diagram" id="diagram">
     <svg class="overlay" id="overlay"></svg>
